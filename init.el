@@ -251,7 +251,11 @@ in `dotspacemacs/user-config'."
 This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
   ;; 配置lua 的路径，当配置环境变量时，可以省略该配置，需要根据环境进行修改！！！
+<<<<<<< HEAD
   (setq lua-default-application "/usr/local/openresty/luajit/bin/luajit")
+=======
+  ;; (setq lua-default-application "/usr/local/openresty/luajit/bin/luajit")
+>>>>>>> c9b95d1aff99e24b57849394295ba2f1944031f7
   (setq powerline-default-separator 'butt)
   )
 
