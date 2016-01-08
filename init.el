@@ -253,6 +253,7 @@ layers configuration. You are free to put any user code."
   ;; 配置lua 的路径，当配置环境变量时，可以省略该配置，需要根据环境进行修改！！！
   ;; (setq lua-default-application "/usr/local/openresty/luajit/bin/luajit")
   (setq powerline-default-separator 'butt)
+  (setq org-agenda-files (list "d:/work/notes"))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
