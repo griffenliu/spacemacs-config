@@ -39,6 +39,7 @@ values."
      javascript
      lua
      ruby
+     python
      (colors :variables colors-enable-nyan-cat-progress-bar t)
      chinese
      emoji
